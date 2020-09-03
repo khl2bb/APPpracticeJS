@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "noop",
-    "slug": "noop",
+    "name": "날씨 앱",
+    "slug": "rkakwlrl",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,6 +21,7 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": ""
   }
 }
