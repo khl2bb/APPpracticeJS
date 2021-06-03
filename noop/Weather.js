@@ -36,14 +36,14 @@ const weatherOptions = {
 	Clear: {
 		iconName: "weather-sunny",
 		gradient: ["#FF7300", "#FEF253"],
-		title: "Sunny as fuck",
-		subtitle: "Go get your ass burnt",
+		title: "해태양해",
+		subtitle: "쨍쨍 맑음",
 	},
 	Clouds: {
 		iconName: "weather-cloudy",
 		gradient: ["#D7D2CC", "#304352"],
-		title: "Clouds",
-		subtitle: "I know, fucking boring",
+		title: "구름 때매 흐림",
+		subtitle: "우중충",
 	},
 	Mist: {
 		iconName: "weather-hail",

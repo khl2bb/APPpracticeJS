@@ -6,7 +6,7 @@ import { Alert } from "react-native";
 import { StyleSheet, Text, View } from "react-native";
 import axios from "axios";
 import Weather from "./Weather";
-
+const API_KEY = "102ba13c4b713a6ad4f11e93fd061f72";
 export default class extends React.Component {
 	state = {
 		isLoading: true,
@@ -60,7 +60,7 @@ export default class extends React.Component {
 		return isLoading ? (
 			<LoadingScreen />
 		) : (
-			<Weather 온도={temp} 상태={condition} />
+			<Weather 온도={temp} 상태={"Clear"} />
 		);
 	}
 }
